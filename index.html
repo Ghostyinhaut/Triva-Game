@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Triva Game</title>
+</head>
+<body>
+    <header>
+        <h1>Totally Trvial Triva!!!</h1>
+    </header>
+
+    <!--jQUERY-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <div class="container">
+        <h1 id="Timer"></h1>
+
+        <div id=question1>In the year 1900 in the U.S. what were the most popular first names given to boy and girl babies?</div>
+        <input type="radio" name="q1" value="William and Elizabeth" /> William and Elizabeth<br/>
+        <input type="radio" name="q1" value="Joseph and Catherine" /> Joseph and Catherine <br/>
+        <input type="radio" name="q1" value="Jack Nicklaus and Catherine" /> Jack Nicklaus and Catherine3<br/>
+        <input type="radio" name="q1" value="George and Anne" /> George and Anne<br/>
+
+        <div id=question2>When did the Liberty Bell get its name?</div>
+        <input type="radio" name="q2" value="when it was made, in 1701" /> when it was made, in 17011<br/>
+        <input type="radio" name="q2" value="when it rang on July 4, 1776" /> when it rang on July 4, 1776 <br/>
+        <input type="radio" name="q2" value="in the 19th century, when it became a symbol of the abolition of slavery" /> in the 19th century, when it became a symbol of the abolition of slavery<br/>
+        <input type="radio" name="q2" value="none of the above" />none of the above<br/>
+
+        <div id=question3>In the Roy Rogers -Dale Evans Museum, you will find Roy and Dales stuffed horses. Roy's horse was named Trigger, which was Dales horse?</div>
+        <input type="radio" name="q3" value="Buttermilk" /> Buttermilk<br/>
+        <input type="radio" name="q3" value="Daisy" /> Daisy <br/>
+        <input type="radio" name="q3" value="Scout" /> Scout<br/>
+        <input type="radio" name="q3" value="Tulip" /> Tulip<br/>
+
+        <div id=question4>Which of the following items was owned by the fewest U.S. homes in 1990?</div>
+        <input type="radio" name="q4" value="home computer" /> home computer<br/>
+        <input type="radio" name="q4" value="compact disk player" />compact disk player<br/>
+        <input type="radio" name="q4" value="cordless phone" /> cordless phone<br/>
+        <input type="radio" name="q4" value="dishwasher" /> dishwasher<br/>
+
+        <div id=question5>Daniel Boon museum at the home where he died can best be described how?</div>
+        <input type="radio" name="q5" value="a log cabin in Kentucky" /> a log cabin in Kentucky<br/>
+        <input type="radio" name="q5" value="two-story clapboard house in Tennessee" /> two-story clapboard house in Tennessee<br/>
+        <input type="radio" name="q5" value="a four-story Georgian-style home in Missouri" /> a four-story Georgian-style home in Missouri<br/>
+        <input type="radio" name="q5" value="a three story brick house in Arkansas" /> a three story brick house in Arkansas<br/>
+
+        <div id=question6>Who holds the record for the most victories in a row on the professional golf tour?</div>
+        <input type="radio" name="q6" value="Jack Nicklaus" /> Jack Nicklaus<br/>
+        <input type="radio" name="q6" value="Arnold Palmer" /> Arnold Palmer <br/>
+        <input type="radio" name="q6" value="Byron Nelson" /> Byron Nelson<br/>
+        <input type="radio" name="q6" value="Ben Hogan" /> Ben Hogan<br/>
+
+        <div id=question7>Who is third behind Hank Aaron and Babe Ruth in major league career home runs?</div>
+        <input type="radio" name="q7" value="Reggie Jackson" />Reggie Jackson<br/>
+        <input type="radio" name="q7" value="Harmon Killebrew" /> Harmon Killebrew <br/>
+        <input type="radio" name="q7" value="Willie Mays" /> Willie Mays<br/>
+        <input type="radio" name="q7" value="Frank Robinson" /> Frank Robinson<br/>
+
+        <!--Sumit Button-->
+        <input type="button" id="submit" value="Submit"></button>
+    </div>
+
+    <button id="Start">Start</button>
+
+    <div id="result"></div>
+    <script src="asset/javascript/game.js">
+    </script>
+</body>
+</html>
